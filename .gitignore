@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials/
+
+# News datasets and results
+results*/
+backups/
+*.jsonl
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.log
+
+# Local environment
+.vscode/
+.idea/
+.codex/
+tmp/
+temp/
+Thumbs.db
+.DS_Store
+.pytest-tmp/

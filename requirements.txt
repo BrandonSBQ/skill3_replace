@@ -1,0 +1,4 @@
+requests>=2.32,<3
+trafilatura>=2.0,<3
+# Google News links after 2024 often require a decoder instead of a normal redirect.
+gnews-decoder==0.1.1
